@@ -67,9 +67,9 @@ def human_move(matrix):
 
 
 matrix = [" "] * 9
-position_computer = 1
+position_computer = 4
 
-while True:
+while True: #optimize
   clear_and_write() 
   
   #Human
